@@ -46,7 +46,7 @@ export const HowItWorks = () => {
   }, []);
 
   return (
-    <section className="common-padding">
+    <section id="hiw" className="common-padding">
       <div className="screen-max-width">
         {/* Chip image */}
         <div id="chip" className="flex-center w-full my-20">

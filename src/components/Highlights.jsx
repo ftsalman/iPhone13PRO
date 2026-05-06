@@ -25,15 +25,25 @@ export const Highlights = () => {
             Get the highlights.
           </h1>
 
-          <div className=" flex flex-wrap items-end gap-5">
-            <p className="link">
+          <div className="flex flex-wrap items-end gap-5">
+            <a
+              href="https://www.youtube.com/watch?v=ZiP1l7jZTpA"
+              target="_blank"
+              rel="noreferrer"
+              className="link flex items-center"
+            >
               Watch the film
               <img src={watchImg} alt="watch" className="ml-2" />
-            </p>
-            <p className="link">
+            </a>
+            <a
+              href="https://www.apple.com/apple-events/"
+              target="_blank"
+              rel="noreferrer"
+              className="link flex items-center"
+            >
               Watch the event
               <img src={rightImg} alt="right" className="ml-2" />
-            </p>
+            </a>
           </div>
         </div>
         <VideoCarousel />
